@@ -46,6 +46,7 @@ public class FirstModel implements FirstContract.Model {
     @Override
     public void setCurrentData(String msg) {
         Log.e(TAG, "setCurrentData()");
+
         scrMsg=msg;
     }
 

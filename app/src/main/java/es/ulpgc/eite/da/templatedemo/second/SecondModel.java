@@ -44,6 +44,7 @@ public class SecondModel implements SecondContract.Model {
     @Override
     public void setCurrentData(String msg) {
         Log.e(TAG, "setCurrentData()");
+
         scrMsg=msg;
     }
 
