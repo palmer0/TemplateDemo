@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Template Demo</string>
+
+    <string name="first_screen_title">First Screen</string>
+    <string name="second_screen_title">Second Screen</string>
+
+    <string name="app_msg">Hello World!</string>
+
+</resources>
