@@ -10,7 +10,7 @@ public class SecondModel implements SecondContract.Model {
 
     public static String TAG = "SecondModel";
 
-    private String appMsg;
+    //private String appMsg;
     private String scrMsg;
     private String newMsg;
 
