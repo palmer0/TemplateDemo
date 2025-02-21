@@ -24,8 +24,8 @@
 
         <Button
             android:id="@+id/cleanButton"
-            android:text="Clean Message"
-            android:onClick="cleanButtonClicked"
+            android:text="Clear Message"
+            android:onClick="clearButtonClicked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32sp"/>

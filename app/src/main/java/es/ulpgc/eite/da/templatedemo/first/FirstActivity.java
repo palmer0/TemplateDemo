@@ -87,8 +87,8 @@ public class FirstActivity
         ((TextView) findViewById(R.id.msgTextView)).setText(viewModel.scrMsg);
     }
 
-    public void cleanButtonClicked(View view) {
-        presenter.onCleanButtonClicked();
+    public void clearButtonClicked(View view) {
+        presenter.onClearButtonClicked();
     }
 
     public void nextButtonClicked(View view) {

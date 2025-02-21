@@ -35,7 +35,7 @@ public interface FirstContract {
 
         void onDestroyCalled();
 
-        void onCleanButtonClicked();
+        void onClearButtonClicked();
 
         void onNextButtonClicked();
     }

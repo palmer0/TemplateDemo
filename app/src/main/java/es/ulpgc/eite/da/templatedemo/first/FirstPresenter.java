@@ -102,8 +102,8 @@ public class FirstPresenter implements FirstContract.Presenter {
     }
 
     @Override
-    public void onCleanButtonClicked() {
-        Log.e(TAG, "onCleanButtonClicked()");
+    public void onClearButtonClicked() {
+        Log.e(TAG, "onClearButtonClicked()");
 
         // update the state and the model
         state.scrMsg = "";
