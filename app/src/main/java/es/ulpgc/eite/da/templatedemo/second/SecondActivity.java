@@ -88,10 +88,12 @@ public class SecondActivity
 
 
     public void showButtonClicked(View view) {
+        Log.e(TAG, "showButtonClicked()");
         presenter.onShowButtonClicked();
     }
 
     public void backButtonClicked(View view) {
+        Log.e(TAG, "backButtonClicked()");
         presenter.onBackButtonClicked();
     }
 

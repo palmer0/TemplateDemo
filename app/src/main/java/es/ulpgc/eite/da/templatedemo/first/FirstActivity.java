@@ -88,10 +88,12 @@ public class FirstActivity
     }
 
     public void clearButtonClicked(View view) {
+        Log.e(TAG, "clearButtonClicked()");
         presenter.onClearButtonClicked();
     }
 
     public void nextButtonClicked(View view) {
+        Log.e(TAG, "nextButtonClicked()");
         presenter.onNextButtonClicked();
     }
 
